@@ -13,6 +13,7 @@ void main()
                 if((arr[i]+arr[j]+arr[k])==x)
                 {
                     count=count+1;
+                    printf("%d,%d,%d\n",arr[i],arr[j],arr[k]);
                 }
             }
         }
